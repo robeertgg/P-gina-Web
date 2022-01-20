@@ -1,2 +1,60 @@
-<! DOCTYPE html >< html >< cabeza > < meta charset = " utf-8 " > < título > Mi página de prueba </ título ></ cabeza >< cuerpo > < p > Mozilla es < fuerte > muy útil. </ fuerte > </ p > < img src = " https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg " alt = " Logotipo mozilla " width = " 200 " height = " 200 " / > < cabeza > < meta charset = " utf-8 " > < título > Planeta </ título > < estilo > # planeta { posición : absoluta; izquierda : 0 px ; } </ estilo > </ cabeza > < div > <! - planeta -> < img id = " planeta " src = " https://assets.sutori.com/user-uploads/image/563480aa-36a1-4282-a77a-0c463a99f71d/1a671672b1c6d4173910338fe1ecfac2.gif " width = " 200 " height = " 200 " /> </ div > < guión > var planetaEl = documento . getElementById ( "planeta" ) ; var startTime = nueva fecha ( ) . getTime ( ) ; var planeta = función ( ) { var currTime = nueva fecha ( ) . getTime ( ) ; var segundosElapse = ( ( currTime - startTime ) / 1000 ) ; var newLeft = secondsElapsed * 100 ; planetaEl . estilo . left = newLeft + "px" ; ventana . requestAnimationFrame ( planeta ) ;} ; planeta ( ) ; </ script > < h1 > ¿Qué es Mozilla? </ h1 > < h2 > ¿Cómo se utiliza? </ h2 > < p > En Mozilla somos uns comunidad de: </ p > < ul > < li > tecnólogos </ li > < li > pensadores </ li > < li > constructores </ li > </ ul > < p > trabajando juntos para mantener vivo y accesible Internet para que las personas de todo el mundo puedan ser contribuyentes y creadores informados de la Web. Creemos que este acto de colaboración humana a través de una plataforma abierta es esencial para el crecimiento individual y nuestro futuro colectivo. </ p > < P > Lee el < un href = " https://www.mozilla.org/en-US/about/manifesto/ " target =" _blank " > Mozilla Manifiesto </ una > para conocer AÚN Mas los Valores y Principios Que guían la consecución de nuestra misión. </ p > < botón > Cambiar usuario </ botón > < script src = " scripts / main.js " > </ script > </ html >
+<! DOCTYPE html >
+< html >
+< cabeza >
+  < meta  charset = " utf-8 " >
+  < título > Mi página de prueba </ título >
+</ cabeza >
+< cuerpo >
 
+  < p > Mozilla es < fuerte > muy útil. </ fuerte > </ p >
+  < img  src = " https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg " alt = " Logotipo mozilla "   width = " 200 " height = " 200 " / >
+
+    < cabeza >
+        < meta  charset = " utf-8 " >
+        < título > Planeta </ título >
+        < estilo >
+            # planeta {
+                posición : absoluta;
+                izquierda :  0 px ;
+            }
+        </ estilo >
+
+        </ cabeza >
+    < div >
+        <! - planeta ->
+        < img  id = " planeta " src = " https://assets.sutori.com/user-uploads/image/563480aa-36a1-4282-a77a-0c463a99f71d/1a671672b1c6d4173910338fe1ecfac2.gif " width = " 200 " height = " 200 " />
+    </ div >
+     < guión >
+   var  planetaEl  =  documento . getElementById ( "planeta" ) ;
+  
+  var  startTime  =  nueva  fecha ( ) . getTime ( ) ;
+  var  planeta  =  función ( )  {
+      var  currTime  =  nueva  fecha ( ) . getTime ( ) ;
+      var  segundosElapse  =  ( ( currTime  -  startTime ) / 1000 ) ;
+      var  newLeft  =  secondsElapsed  *  100 ;
+      planetaEl . estilo . left  =  newLeft  +  "px" ; 
+      ventana . requestAnimationFrame ( planeta ) ;
+} ;
+  planeta ( ) ;
+        </ script >
+
+
+  < h1 > ¿Qué es Mozilla? </ h1 >
+  < h2 > ¿Cómo se utiliza? </ h2 >
+
+< p > En Mozilla somos uns comunidad de: </ p >
+    < ul >
+      < li > tecnólogos </ li >
+      < li > pensadores </ li >
+      < li > constructores </ li >
+    </ ul >
+ 
+  < p > trabajando juntos para mantener vivo y accesible Internet para que las personas de todo el mundo puedan ser contribuyentes y creadores informados de la Web. Creemos que este acto de colaboración humana a través de una plataforma abierta es esencial para el crecimiento individual y nuestro futuro colectivo. </ p >
+ 
+  < P > Lee el < un  href = " https://www.mozilla.org/en-US/about/manifesto/ " target =" _blank " > Mozilla Manifiesto </ una > para conocer AÚN Mas los Valores y Principios Que guían la consecución de nuestra misión.
+
+    </ p >
+    < botón > Cambiar usuario </ botón >
+    < script  src = " scripts / main.js " > </ script >
+
+</ html >
